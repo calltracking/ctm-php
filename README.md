@@ -1,4 +1,4 @@
-Call Tracking Metrics PHP Library
+CallTrackingMetrics PHP Library
 =================================
 
 Authentication

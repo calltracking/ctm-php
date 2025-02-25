@@ -1,0 +1,9 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Serve static files directly
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.*)$ $1 [L]
+
+# Forward all requests to index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
